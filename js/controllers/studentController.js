@@ -15,11 +15,13 @@ export class StudentController {
     }
 
     addStudent(studentData) {
+        debugger;
         this.studentModel.addStudent(studentData);
         this.updateStudentsList();
     }
 
     updateStudentsList() {
+        debugger;
         const students = this.studentModel.getAllStudents();
         this.studentsListView.render(students, this.deleteStudent.bind(this));
     }

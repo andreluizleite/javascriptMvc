@@ -1,4 +1,4 @@
-import { StudentController } from './StudentController/studentController.js';
+import { StudentController } from '../controllers/studentController.js';
 
 document.addEventListener('DOMContentLoaded', function () {
     const studentController = new StudentController();
